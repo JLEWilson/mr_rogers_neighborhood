@@ -37,12 +37,19 @@ function beepBoopify(int){
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
+  });
+  $("#submitButton").click(function(){
     let inputNumber = $("#inputNumber").val();    
     $("#output").text(beepBoopify(inputNumber));
     $(".output").show();
     $("#clearButton").show();
   });
-
+  $("#submitButton2").click(function(){
+    let inputNumber = $("#inputNumber").val();    
+    $("#output").text(beepBoopify(inputNumber));
+    $(".output").show();
+    $("#clearButton").show();
+  });
   $("#clearButton").click(function(){
     $("#output").text("");
     $(".output").hide();

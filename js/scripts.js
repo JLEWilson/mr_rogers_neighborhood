@@ -10,14 +10,17 @@ function contains1(int){
 }
 
 
-function beeepBoopify(int){
+function beepBoopify(int){
 
   let outputArray = [];
   for (let i = 0; i <= int; i++)
   {
     if(contains1(i)){
       outputArray.push("Beep!");
-    } else{
+    } else if(i === 2){
+      outputArray.push("Boop!");
+    }
+    else{
       outputArray.push(i);
     }
     

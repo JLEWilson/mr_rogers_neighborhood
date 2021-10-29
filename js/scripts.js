@@ -29,7 +29,6 @@ function reverseStrings(array){
 
 function beepBoopify(int){
   let outputArray = [];
-
   if(isNaN(int)){
     outputArray.push("Numbers only please");
   } else if(int === "143"){

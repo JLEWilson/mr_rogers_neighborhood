@@ -1,16 +1,23 @@
 .intro{
   text-align: center;
 }
+#userInput{
+  text-align: center;
+}
 .btn{
   margin: 0 auto;
   display: block;
 }
-
 #clearButton{
   display: none;
 }
 #submitButton{
-  margin-top: 20px;
+  margin-top: 10px;
+}
+.output{
+  text-align: center;
+  border-style: groove;
+  margin-bottom: 30px;
 }
 #spotifyEmbed{
   margin-left: 20%;

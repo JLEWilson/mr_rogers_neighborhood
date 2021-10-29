@@ -39,11 +39,13 @@ $(document).ready(function(){
     event.preventDefault();
     let inputNumber = $("#inputNumber").val();    
     $("#output").text(beepBoopify(inputNumber));
+    $(".output").show();
     $("#clearButton").show();
   });
 
   $("#clearButton").click(function(){
     $("#output").text("");
+    $(".output").hide();
     $("#clearButton").hide();
   });
   $("#lyricsButton").click(function(){

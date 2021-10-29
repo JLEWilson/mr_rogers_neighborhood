@@ -43,7 +43,7 @@ $(document).ready(function(){
   });
 
   $("#clearButton").click(function(){
-    $("#output").text(beepBoopify(inputNumber));
+    $("#output").text("");
     $("#clearButton").hide();
   });
   $("#lyricsButton").click(function(){

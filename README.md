@@ -2,7 +2,7 @@
 
 #### By _**Jacob Wilson**_
 
-#### _A brief description of the project._
+#### _A page that takes in a number and returns it based on button pressed_
 
 ## Technologies Used
 
@@ -15,17 +15,16 @@
 
 ## Description
 
-_A detailed description of the project._
+_A page that takes in a number and returns a different based on button pressed. BeepBoopify! returns the number with 1's replaced by "Beep!", 2's replcaed by "Boop!" and 3's replaced by "Won't you be my neighbor?" with preference for 3 then 2 then 1. ReverseBoopify does the same as BeepBoopify but it reverses the order of the array. !yfipooBpeeB does the same as ReverseBoopify but it also reverses the order of all strings within the array_
 
 ## Setup/Installation Requirements
 
-{Leave nothing to chance!}
-{BE MORE SPECIFIC HERE}
 * _You can find the github repository [here](https://github.com/JLEWilson/mr_rogers_neighborhood.git)_
-* _Clone the repository to your computer_
+* _Clone the repository to your computer by using the git command: git clone followed by the link above_
+* _Navigate to the folder you cloned the link to_
 * _Open the index.html file in a browser_
 * _OR_
-* _You can find the project on github pages[here]()_
+* _You can find the project on github pages[here](https://jlewilson.github.io/mr_rogers_neighborhood/)_
 
 ## Known Bugs
 
@@ -116,4 +115,4 @@ Output : 1,2,3"rouf"
 
 _If you run into any problems or find a bug, would like to reach me for a seperate reason, feel free to send me an email @jacobleeeugenewilson@gmail.com with details of your issue._
 
-Copyright (c) _Date_ _Jacob Wilson(s)_
+Copyright (c) _10/29/2021_ _Jacob Wilson(s)_

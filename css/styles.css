@@ -1,8 +1,12 @@
+body{
+  background-color:  #ffc5ba;
+}
 .intro{
   text-align: center;
 }
 .jumbotron{
   margin-bottom: 10px;
+  background-color: #c78b91;
 }
 #userInput{
   text-align: center;
@@ -16,6 +20,13 @@
 }
 #submitButton{
   margin-top: 10px;
+  margin-bottom: 5px;
+}
+#submitButton1{
+  margin-bottom: 5px;
+}
+#submitButton2{
+  margin-bottom: 5px;
 }
 .output{
   text-align: center;

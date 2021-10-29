@@ -73,23 +73,43 @@ Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?" ... 9, "Beep!", "Beep!"
 Describe contains1()
 Note: Not in final product
 
-Test: It should return true if the input is a 1
+Test: "It should return true if the input is a 1"
 Code: contains1(1);
-Output: true;
+Output: true
 
-Test: It should return true if any digit in the input is a 1
+Test: "It should return true if any digit in the input is a 1"
 Code: contains1(41);
-Output: true;
+Output: true
 
 Describe containsX()
 
-Test: It should return true if the input is a X
+Test: "It should return true if the input is a X"
 Code: contains1(12, 12);
-Output: true;
+Output: true
 
-Test: It should return true if any digit in the input is X
+Test: "It should return true if any digit in the input is X"
 Code: contains1(12345, 3);
-Output: true;
+Output: true
+
+Describe reverseArray()
+
+Test: "It should take an array and reverse the order"
+Code: reverseBoopify(array[1,2,3,4,5])
+Output: 5,4,3,2,1
+
+Test: "It should take only output the reveresed array if the parameter is an array"
+Code: reverseBoopify("words")
+Output: console.error("This is not an array, nothing is going to happen");
+
+Describe reverseStrings()
+
+Test: "It should take an array and return true if the array contains strings"
+Code: totalReverse(array[1,2,3,"four]);
+Ouput: true
+
+Test: "It should loop through the array and reverse the strings"
+Code: totalReverse(array[1,2,3,"four"]);
+Output : 1,2,3"rouf"
 
 
 ## Licence - [MIT](https://opensource.org/licenses/MIT)

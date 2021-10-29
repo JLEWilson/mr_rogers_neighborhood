@@ -15,13 +15,18 @@ function beepBoopify(int){
   for (let i = 0; i <= int; i++)
   {
     if(containsX(i, 3)){
-      outputArray.push("Won't you be my neighbor?");
+      outputArray.push(" " + "\"Won't you be my neighbor?\"");
     } else if(containsX(i, 2)){
-      outputArray.push("Boop!");
+      outputArray.push(" " + "\"Boop!\"");
     } else if(containsX(i, 1)){
-      outputArray.push("Beep!");
+      outputArray.push(" " + "\"Beep!\"");
     } else{
-      outputArray.push(i);
+      if(i === 0){
+        outputArray.push(i);
+      } else {
+        outputArray.push(" " + i);  
+      }
+      
     }
     
   }

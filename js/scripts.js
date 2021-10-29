@@ -11,22 +11,26 @@ function containsX(int, X){
 
 function beepBoopify(int){
   let outputArray = [];
-  for (let i = 0; i <= int; i++)
-  {
-    if(containsX(i, 3)){
-      outputArray.push(" " + "\"Won't you be my neighbor?\"");
-    } else if(containsX(i, 2)){
-      outputArray.push(" " + "\"Boop!\"");
-    } else if(containsX(i, 1)){
-      outputArray.push(" " + "\"Beep!\"");
-    } else{
-      if(i === 0){
-        outputArray.push(i);
-      } else {
-        outputArray.push(" " + i);  
+
+  if(int === "143"){
+    outputArray.push("I love you!");  // Mr. Rogers' favorite number, a numerical code he used 1=I 4=Love 3=You. RIP Rogers'! We love you too.
+  } else{
+    for (let i = 0; i <= int; i++) {
+      if(containsX(i, 3)){
+        outputArray.push(" " + "\"Won't you be my neighbor?\"");
+      } else if(containsX(i, 2)){
+        outputArray.push(" " + "\"Boop!\"");
+      } else if(containsX(i, 1)){
+        outputArray.push(" " + "\"Beep!\"");
+      } else{
+        if(i === 0){
+          outputArray.push(i);
+        } else {
+          outputArray.push(" " + i);  
+        }
       }
     }
-  }
+  } 
   return outputArray;
 }
 

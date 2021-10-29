@@ -66,6 +66,10 @@ Code: beepBoopify(3);
 Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?"
 Note: Since code was DRY'd containsX already accounts for it in any digit
 
+Test: "It should prioritize 3 then 2 then 1"
+Code: beepBoopify(13)
+Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?" ... 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?"
+
 Describe contains1()
 Note: Not in final product
 

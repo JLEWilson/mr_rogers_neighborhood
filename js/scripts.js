@@ -11,7 +11,6 @@ function containsX(int, X){
 
 
 function beepBoopify(int){
-
   let outputArray = [];
   for (let i = 0; i <= int; i++)
   {
@@ -26,6 +25,15 @@ function beepBoopify(int){
     }
     
   }
-
   return outputArray;
 }
+
+$(document).ready(function(){
+  $("#formOne").submit(function(event){
+    event.preventDefault();
+
+    let inputNumber = $("#inputNumber").val();
+    
+    $("#output").text(beepBoopify(inputNumber));
+  });
+});

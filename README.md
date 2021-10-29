@@ -91,6 +91,17 @@ Test: It should return true if any digit in the input is X
 Code: contains1(12345, 3);
 Output: true;
 
+Describe $("#formOne").submit(function(event))
+
+Test: It should log user input to the consol
+Code: User inputs 54321 into form and submits
+      let inputNumber = $("#inputNumber").val(); 
+      console.log(inputNumber);
+output: console: 54321
+
+Test: It should output results of beepBoopify() to #output based on userInput;
+userInput: 
+
 ## Licence - [MIT](https://opensource.org/licenses/MIT)
 
 _If you run into any problems or find a bug, would like to reach me for a seperate reason, feel free to send me an email @jacobleeeugenewilson@gmail.com with details of your issue._

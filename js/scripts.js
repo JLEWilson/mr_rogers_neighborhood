@@ -47,6 +47,6 @@ $(document).ready(function(){
     $("#clearButton").hide();
   });
   $("#lyricsButton").click(function(){
-    $(".lyrics").toggle();
+    $(".col-md-6").toggle();
   });
 });

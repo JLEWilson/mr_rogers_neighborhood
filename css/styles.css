@@ -1,13 +1,29 @@
-#intro{
+.intro{
   text-align: center;
 }
-.spotifyEmbed{
-  align-self: center;
+.btn{
+  margin: 0 auto;
+  display: block;
 }
-.lyrics{
+
+#clearButton{
   display: none;
+}
+#submitButton{
+  margin-top: 20px;
+}
+#spotifyEmbed{
+  margin-left: 20%;
+}
+#lyricsButton{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.col-md-6{
+  display: none;
+  border-style: groove;
   text-align: center;
 }
-.lyrics, p{
+p{
   margin-bottom: 5px;
 }

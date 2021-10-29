@@ -19,8 +19,9 @@ function beepBoopify(int){
       outputArray.push("Beep!");
     } else if(containsX(i, 2)){
       outputArray.push("Boop!");
-    }
-    else{
+    } else if(containsX(i, 3)){
+      outputArray.push("Won't you be my neighbor?");
+    } else{
       outputArray.push(i);
     }
     

@@ -56,7 +56,8 @@ function beepBoopify(int){
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
-    $("#submitButton").click(function(){
+    
+    $("#submitButton").click(function(){    // Unsure of where to scope these buttons. It seems like they should actually be in $(document).ready but not in the submit
       let inputNumber = $("#inputNumber").val();    
       $("#output").text(beepBoopify(inputNumber));
       $(".output").show();

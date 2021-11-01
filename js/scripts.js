@@ -14,6 +14,7 @@ function reverseArray(array){
   }
   return array.reverse();
 }
+
 function reverseStrings(array){
   if(!Array.isArray(array)){
     console.error("This is not an array, nothing is going to happen");

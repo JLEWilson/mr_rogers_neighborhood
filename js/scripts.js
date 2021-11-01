@@ -57,22 +57,24 @@ function beepBoopify(int){
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
+  });
+  $("#submitButton").click(function(){    // Unsure of where to scope these buttons. 
     let inputNumber = $("#inputNumber").val(); 
-    $("#submitButton").click(function(){    // Unsure of where to scope these buttons. 
-      $("#output").text(beepBoopify(inputNumber));
-      $(".output").show();
-      $("#clearButton").show();
-    });
-    $("#submitButton2").click(function(){    
-      $("#output").text(reverseArray(beepBoopify(inputNumber)));
-      $(".output").show();
-      $("#clearButton").show();
-    });
-    $("#submitButton3").click(function(){    
-      $("#output").text(reverseStrings(reverseArray(beepBoopify(inputNumber))));
-      $(".output").show();
-      $("#clearButton").show();
-    });
+    $("#output").text(beepBoopify(inputNumber));
+    $(".output").show();
+    $("#clearButton").show();
+  });
+  $("#submitButton2").click(function(){    
+    let inputNumber = $("#inputNumber").val(); 
+    $("#output").text(reverseArray(beepBoopify(inputNumber)));
+    $(".output").show();
+    $("#clearButton").show();
+  });
+  $("#submitButton3").click(function(){    
+    let inputNumber = $("#inputNumber").val(); 
+    $("#output").text(reverseStrings(reverseArray(beepBoopify(inputNumber))));
+    $(".output").show();
+    $("#clearButton").show();
   });
   $("#clearButton").click(function(){
     $("#output").text("");

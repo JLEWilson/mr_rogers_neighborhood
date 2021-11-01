@@ -57,21 +57,18 @@ function beepBoopify(int){
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
-    
-    $("#submitButton").click(function(){    // Unsure of where to scope these buttons. It seems like they should actually be in $(document).ready but not in the submit
-      let inputNumber = $("#inputNumber").val();    
+    let inputNumber = $("#inputNumber").val(); 
+    $("#submitButton").click(function(){    // Unsure of where to scope these buttons. 
       $("#output").text(beepBoopify(inputNumber));
       $(".output").show();
       $("#clearButton").show();
     });
-    $("#submitButton2").click(function(){
-      let inputNumber = $("#inputNumber").val();    
+    $("#submitButton2").click(function(){    
       $("#output").text(reverseArray(beepBoopify(inputNumber)));
       $(".output").show();
       $("#clearButton").show();
     });
-    $("#submitButton3").click(function(){
-      let inputNumber = $("#inputNumber").val();    
+    $("#submitButton3").click(function(){    
       $("#output").text(reverseStrings(reverseArray(beepBoopify(inputNumber))));
       $(".output").show();
       $("#clearButton").show();

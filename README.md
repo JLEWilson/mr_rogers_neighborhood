@@ -111,8 +111,8 @@ Code: totalReverse(array[1,2,3,"four"]);
 Output : 1,2,3"rouf"
 
 
-## Licence - [MIT](https://opensource.org/licenses/MIT)
+## License - [MIT](https://opensource.org/licenses/MIT)
 
-_If you run into any problems or find a bug, would like to reach me for a seperate reason, feel free to send me an email @jacobleeeugenewilson@gmail.com with details of your issue._
+_If you run into any problems or find a bug, would like to reach me for a separate reason, feel free to send me an email @jacobleeeugenewilson@gmail.com with details of your issue._
 
 Copyright (c) _10/29/2021_ _Jacob Wilson(s)_

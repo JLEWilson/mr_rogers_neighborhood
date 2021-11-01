@@ -56,24 +56,24 @@ function beepBoopify(int){
 $(document).ready(function(){
   $("#formOne").submit(function(event){
     event.preventDefault();
-  });
-  $("#submitButton").click(function(){
-    let inputNumber = $("#inputNumber").val();    
-    $("#output").text(beepBoopify(inputNumber));
-    $(".output").show();
-    $("#clearButton").show();
-  });
-  $("#submitButton2").click(function(){
-    let inputNumber = $("#inputNumber").val();    
-    $("#output").text(reverseArray(beepBoopify(inputNumber)));
-    $(".output").show();
-    $("#clearButton").show();
-  });
-  $("#submitButton3").click(function(){
-    let inputNumber = $("#inputNumber").val();    
-    $("#output").text(reverseStrings(reverseArray(beepBoopify(inputNumber))));
-    $(".output").show();
-    $("#clearButton").show();
+    $("#submitButton").click(function(){
+      let inputNumber = $("#inputNumber").val();    
+      $("#output").text(beepBoopify(inputNumber));
+      $(".output").show();
+      $("#clearButton").show();
+    });
+    $("#submitButton2").click(function(){
+      let inputNumber = $("#inputNumber").val();    
+      $("#output").text(reverseArray(beepBoopify(inputNumber)));
+      $(".output").show();
+      $("#clearButton").show();
+    });
+    $("#submitButton3").click(function(){
+      let inputNumber = $("#inputNumber").val();    
+      $("#output").text(reverseStrings(reverseArray(beepBoopify(inputNumber))));
+      $(".output").show();
+      $("#clearButton").show();
+    });
   });
   $("#clearButton").click(function(){
     $("#output").text("");
@@ -81,6 +81,6 @@ $(document).ready(function(){
     $("#clearButton").hide();
   });
   $("#lyricsButton").click(function(){
-    $(".col-md-6").toggle();
+    $(".lyrics").toggle();
   });
 });

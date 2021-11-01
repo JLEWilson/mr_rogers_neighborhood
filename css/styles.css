@@ -1,12 +1,16 @@
 body{
-  background-color:  #ffc5ba;
+  background-color: #f3ba70;
 }
 .intro{
   text-align: center;
+  text-shadow: 3px 3px rgba(128, 128, 128, 0.541);
 }
 .jumbotron{
   margin-bottom: 10px;
-  background-color: #c78b91;
+  background-image: url('../img/banner.png');
+  background-size: cover;
+  background-repeat:repeat-x;
+  font-style: oblique;
 }
 #userInput{
   text-align: center;
@@ -51,6 +55,9 @@ p{
 #userInput{
   margin-top: 30px;
 }
+.inMemory{
+  font-style: italic;
+}
 #aboutFredImg{
   display: block;
   margin-left: auto;
@@ -60,6 +67,11 @@ p{
 }
 #aboutFredTitle{
   text-align: center;
-  font-style: italic;
   font-size: 30px;
+}
+#aboutFredQuote{
+  margin-top: 10px;
+}
+.rogersName{
+  font-weight: 600;
 }
